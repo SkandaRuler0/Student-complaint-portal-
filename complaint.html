@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Complaint</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Submit a Complaint</h1>
+
+        <nav>
+            <a href="file:///C:/Users/Skanda%20S%20Simha/OneDrive/Desktop/project/!DOCTYPE%204html.html">Home</a> |
+            <a href="file:///C:/Users/Skanda%20S%20Simha/OneDrive/Desktop/project/!DOCTYPE%20html.html">Submit Complaint</a> |
+            <a href="file:///C:/Users/Skanda%20S%20Simha/OneDrive/Desktop/project/1l.html">Complaint Status</a> |
+            <a href="file:///C:/Users/Skanda%20S%20Simha/OneDrive/Desktop/project/23.html">Contact</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    <main>
+
+        <h2>Complaint Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Student Name:</label>
+            <br>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+            >
+
+            <br><br>
+
+
+            <label for="studentid">Student ID:</label>
+            <br>
+
+            <input
+                type="text"
+                id="studentid"
+                name="studentid"
+                required
+            >
+
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <br>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <br><br>
+
+
+            <label for="category">Complaint Category:</label>
+            <br>
+
+            <select id="category" name="category">
+
+                <option value="classroom">Classroom</option>
+                <option value="laboratory">Laboratory</option>
+                <option value="wifi">Wi-Fi / Internet</option>
+                <option value="library">Library</option>
+                <option value="hostel">Hostel</option>
+                <option value="cleanliness">Cleanliness</option>
+                <option value="other">Other</option>
+
+            </select>
+
+            <br><br>
+
+
+            <label>Priority:</label>
+            <br>
+
+            <input
+                type="radio"
+                id="low"
+                name="priority"
+                value="low"
+            >
+
+            <label for="low">Low</label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="medium"
+                name="priority"
+                value="medium"
+            >
+
+            <label for="medium">Medium</label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="high"
+                name="priority"
+                value="high"
+            >
+
+            <label for="high">High</label>
+
+            <br><br>
+
+
+            <label for="description">
+                Describe Your Complaint:
+            </label>
+
+            <br>
+
+            <textarea
+                id="description"
+                name="description"
+                rows="6"
+                cols="40"
+                required
+            ></textarea>
+
+            <br><br>
+
+
+            <input
+                type="checkbox"
+                id="confirm"
+                name="confirm"
+                required
+            >
+
+            <label for="confirm">
+                I confirm that the information provided is correct.
+            </label>
+
+            <br><br>
+
+
+            <input
+                type="submit"
+                value="Submit Complaint"
+            >
+
+            <input
+                type="reset"
+                value="Clear Form"
+            >
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Student Complaint & Feedback Portal</p>
+    </footer>
+
+</body>
+</html>
